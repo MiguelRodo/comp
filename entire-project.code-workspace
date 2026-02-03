@@ -2,6 +2,15 @@
   "folders": [
     {
       "path": "."
+    },
+    {
+      "path": "../sta5069z/data"
+    },
+    {
+      "path": "../sta5069z/slides"
+    },
+    {
+      "path": "../sta5069z/eval"
     }
   ]
 }
