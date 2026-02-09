@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/miguelrodo/comp-2026-sta5069z",
+  "image": "ghcr.io/miguelrodo/comp-2026-v1.0",
   "customizations": {
     "vscode": {
       "extensions": [
