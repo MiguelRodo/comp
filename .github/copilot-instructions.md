@@ -30,13 +30,6 @@ This is a template repository for setting up multi-repository R-based computatio
 │   └── workflows/          # GitHub Actions workflows
 │       ├── devcontainer-build.yml    # Automated container builds
 │       └── add-issues-to-project.yml # Issue management
-├── scripts/                # Utility scripts for repository management
-│   ├── clone-repos.sh      # Clone repositories listed in repos.list
-│   ├── vscode-workspace-add.sh  # Generate VS Code workspace file
-│   ├── codespaces-auth-add.sh   # Configure GitHub auth in Codespaces
-│   ├── create-repos.sh     # Create new repositories
-│   ├── install-r-deps.sh   # Install R dependencies
-│   └── run-pipeline.sh     # Execute analysis pipeline
 ├── repos.list              # List of repositories to clone (format: owner/repo@branch)
 ├── entire-project.code-workspace  # VS Code multi-root workspace file
 └── README.md               # Documentation
@@ -53,14 +46,6 @@ This is a template repository for setting up multi-repository R-based computatio
 - Configures the development container environment
 - Includes custom features for repository cloning and R package pre-installation
 - Pre-installs VS Code extensions including GitHub Copilot
-
-### `scripts/clone-repos.sh`
-- Clones all repositories specified in `repos.list`
-- Works on Linux, macOS, and Windows (via Git Bash)
-
-### `scripts/vscode-workspace-add.sh`
-- Generates/updates `entire-project.code-workspace`
-- Requires Python or `jq` utility
 
 ## Workflow
 
