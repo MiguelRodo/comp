@@ -10,7 +10,7 @@ RUN mkdir -p /usr/local/etc/container_metadata && \
       > /usr/local/etc/container_metadata/build_info.txt
 
 # Copy the `.devcontainer/renv` folder to the container
-COPY .devcontainer/renv /usr/local/share/config-r/renv
+COPY .devcontainer/renv /usr/local/share/renv-cache/renv
 
 # Set appropriate permissions
-RUN chmod -R 755 /usr/local/share/config-r/renv
+RUN chmod -R 755 /usr/local/share/renv-cache/renv
