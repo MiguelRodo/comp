@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/miguelrodo/comp-v1.0.0",
+  "image": "ghcr.io/miguelrodo/comp-v1.0.1",
   "customizations": {
     "vscode": {
       "extensions": [
