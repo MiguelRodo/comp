@@ -5,18 +5,9 @@
     "context": ".."
   },
   "features": {
-    "ghcr.io/MiguelRodo/DevContainerFeatures/config-r:2": {
+    "ghcr.io/MiguelRodo/DevContainerFeatures/renv-cache:1": {
       "debug": true,
       "debugRenv": true
-    },
-    "ghcr.io/rocker-org/devcontainer-features/r-rig:1": {
-      "installDevTools": false,
-      "installREnv": true,
-      "installRadian": true,
-      "version": "none",
-      "pakVersion": "auto",
-      "vscodeRSupport": "minimal",
-      "pandocVersion": "auto"
     },
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "xvfb,vim,libcurl4-openssl-dev,libsecret-1-dev,jq"
@@ -38,6 +29,26 @@
       "settings": {
         "dotfiles.repository": "https://github.com/SATVILab/dotfiles.git",
         "dotfiles.targetPath": "$HOME/.dotfiles"
+      }
+    },
+    "codespaces": {
+      "repositories": {
+        "MiguelRodo/lectures": {
+          "permissions": {
+            "actions": "write",
+            "contents": "write",
+            "packages": "read",
+            "workflows": "write"
+          }
+        },
+        "MiguelRodo/eval": {
+          "permissions": {
+            "actions": "write",
+            "contents": "write",
+            "packages": "read",
+            "workflows": "write"
+          }
+        }
       }
     }
   }
