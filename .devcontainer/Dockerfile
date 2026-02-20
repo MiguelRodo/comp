@@ -1,6 +1,6 @@
 # Use the official Ubuntu image as the base
-FROM bioconductor/bioconductor_docker:RELEASE_3_21-r-4.5.2
-
+FROM mcr.microsoft.com/bioconductor/bioconductor_docker:RELEASE_3_21-r-4.5.2
+  
 # Avoid interactive prompts during package installation
 ENV DEBIAN_FRONTEND=noninteractive
 
