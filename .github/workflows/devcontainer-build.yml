@@ -102,6 +102,7 @@ jobs:
         with:
           imageName: ${{ env.IMAGE_NAME }}
           push: always
+          noCache: true
 
       - name: Update or create prebuild/devcontainer.json
         run: |
