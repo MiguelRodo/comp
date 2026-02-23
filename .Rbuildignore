@@ -1,0 +1,14 @@
+^_projr\.yml$
+
+# Start of projr section: do not edit by hand (update with projr_ignore_auto())
+^README\.Rmd$
+^_projr\.yml$
+^entire-project\.code-workspace$
+^\.devcontainer/
+^\.devcontainer$
+^\.github/
+^\.github$
+^_archive/
+^_archive$
+# End of projr section
+
