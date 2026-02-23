@@ -1,1 +1,1 @@
-source("renv/activate.R")
+try(source("scripts/r/switch.R"))
