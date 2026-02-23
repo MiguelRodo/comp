@@ -89,17 +89,20 @@ jobs:
           # Query GitHub Container Registry for the image
           STATUS=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: Bearer $TOKEN" \
             "https://ghcr.io/v2/${IMAGE_PATH}/manifests/latest")
-          if [ "$STATUS" -eq 200 ]; then
-            echo "USE_CACHE_FROM=true" >> $GITHUB_ENV
-          else
-            echo "USE_CACHE_FROM=false" >> $GITHUB_ENV
-          fi
+          # if [ "$STATUS" -eq 200 ]; then
+          #   echo "USE_CACHE_FROM=true" >> $GITHUB_ENV
+          # else
+          #   echo "USE_CACHE_FROM=false" >> $GITHUB_ENV
+          # fi
+
+          echo "USE_CACHE_FROM=false" >> $GITHUB_ENV
 
       - name: Pre-build dev container image
         uses: devcontainers/ci@v0.3
         with:
           imageName: ${{ env.IMAGE_NAME }}
           push: always
+          noCache: true
 
       - name: Update or create prebuild/devcontainer.json
         run: |
