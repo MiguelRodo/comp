@@ -40,6 +40,9 @@ This repo supports easy setup of a multi-repository workspace on Linux, macOS or
    Edit `repos.list` in the root. See its header for format details.
 
 2. **Clone repositories**  
+
+   You can install the `repos` utility for your system from [https://github.com/MiguelRodo/repos](https://github.com/MiguelRodo/repos), or run the script directly:
+
    ```bash
    scripts/clone-repos.sh
    ```
