@@ -1,11 +1,18 @@
 {
-  "image": "ghcr.io/miguelrodo/devcontainers-v1.1.1",
+  "image": "ghcr.io/miguelrodo/devcontainers-main:v1.1.1",
   "customizations": {
     "vscode": {
       "extensions": [
         "quarto.quarto",
         "mathematic.vscode-pdf"
       ]
+    },
+    "codespaces": {
+      "repositories": {
+        "MiguelRodo/eval": {
+          "permissions": "write-all"
+        }
+      }
     }
   }
 }
