@@ -4,7 +4,8 @@
     "vscode": {
       "extensions": [
         "quarto.quarto",
-        "mathematic.vscode-pdf"
+        "mathematic.vscode-pdf",
+        "REditorSupport.r"
       ]
     },
     "codespaces": {
