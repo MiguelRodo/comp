@@ -1,5 +1,4 @@
 {
-  "image": "ghcr.io/miguelrodo/devcontainers-main:v1.2.0",
   "customizations": {
     "codespaces": {
       "repositories": {
@@ -11,7 +10,7 @@
             "workflows": "write"
           }
         },
-        "MiguelRodo/comp": {
+        "MiguelRodo/eval": {
           "permissions": {
             "actions": "write",
             "contents": "write",
@@ -27,5 +26,7 @@
         "mathematic.vscode-pdf"
       ]
     }
-  }
+  },
+  "image": "ghcr.io/miguelrodo/devcontainers-main:v1.2.0"
 }
+
