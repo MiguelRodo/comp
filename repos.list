@@ -4,5 +4,6 @@
 # Append @<branch> if you want to clone a specific branch, for example:
 # SATVILab/projr@dev
 MiguelRodo/eval@2026-msc-mv eval
+MiguelRodo/lectures@slides-2026-sta5069z slides
 MiguelRodo/Eval24STA5069Z@2025 eval_2025
 
