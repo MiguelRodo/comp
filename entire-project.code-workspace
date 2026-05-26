@@ -4,13 +4,16 @@
       "path": "."
     },
     {
-      "path": "../eval"
+      "path": "../data"
     },
     {
       "path": "../slides"
     },
     {
       "path": "../eval_2025"
+    },
+    {
+      "path": "../eval"
     }
   ]
 }
