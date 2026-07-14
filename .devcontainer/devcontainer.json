@@ -1,32 +1,4 @@
 {
-  "customizations": {
-    "codespaces": {
-      "repositories": {
-        "MiguelRodo/Eval24STA5069Z": {
-          "permissions": {
-            "actions": "write",
-            "contents": "write",
-            "packages": "read",
-            "workflows": "write"
-          }
-        },
-        "MiguelRodo/eval": {
-          "permissions": {
-            "actions": "write",
-            "contents": "write",
-            "packages": "read",
-            "workflows": "write"
-          }
-        }
-      }
-    },
-    "vscode": {
-      "extensions": [
-        "quarto.quarto",
-        "mathematic.vscode-pdf"
-      ]
-    }
-  },
-  "image": "ghcr.io/miguelrodo/devcontainers-main:v1.2.0"
+  "image": "ghcr.io/miguelrodo/devcontainers-main:v1.2.1"
 }
 
