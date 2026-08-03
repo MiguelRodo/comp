@@ -6,6 +6,50 @@
         "quarto.quarto",
         "mathematic.vscode-pdf"
       ]
+    },
+    "codespaces": {
+      "repositories": {
+        "MiguelRodo/DataTidyRodoSTA2005S": {
+          "permissions": {
+            "actions": "write",
+            "contents": "write",
+            "packages": "read",
+            "workflows": "write"
+          }
+        },
+        "MiguelRodo/Eval23RodoSTA2005S": {
+          "permissions": {
+            "actions": "write",
+            "contents": "write",
+            "packages": "read",
+            "workflows": "write"
+          }
+        },
+        "MiguelRodo/Slides23RodoSTA2005S": {
+          "permissions": {
+            "actions": "write",
+            "contents": "write",
+            "packages": "read",
+            "workflows": "write"
+          }
+        },
+        "MiguelRodo/eval": {
+          "permissions": {
+            "actions": "write",
+            "contents": "write",
+            "packages": "read",
+            "workflows": "write"
+          }
+        },
+        "MiguelRodo/lectures": {
+          "permissions": {
+            "actions": "write",
+            "contents": "write",
+            "packages": "read",
+            "workflows": "write"
+          }
+        }
+      }
     }
   }
 }
