@@ -6,6 +6,26 @@
         "quarto.quarto",
         "mathematic.vscode-pdf"
       ]
+    },
+    "codespaces": {
+      "repositories": {
+        "MiguelRodo/eval": {
+          "permissions": {
+            "actions": "write",
+            "contents": "write",
+            "packages": "read",
+            "workflows": "write"
+          }
+        },
+        "MiguelRodo/lectures": {
+          "permissions": {
+            "actions": "write",
+            "contents": "write",
+            "packages": "read",
+            "workflows": "write"
+          }
+        }
+      }
     }
   }
 }
