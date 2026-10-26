@@ -1,0 +1,10 @@
+# <owner>/<repo> format where <owner> is the GitHub remote owner and
+# <repo> is the repo name, for example:
+# SATVILab/projr
+# Append @<branch> if you want to clone a specific branch, for example:
+# SATVILab/projr@dev
+MiguelRodo/lectures@slides-2026-sta2005s-v0.2.0 lectures
+MiguelRodo/eval@eval-2026-sta2005s-v0.2.0 eval
+MiguelRodo/Slides23RodoSTA2005S@2025 slides_2025
+MiguelRodo/Eval23RodoSTA2005S@2025 eval_2025
+MiguelRodo/DataTidyRodoSTA2005S data_tidy

@@ -1,0 +1,53 @@
+{
+  "course": "STA2005S 2026",
+  "snapshot": "v0.2.0",
+  "compendium_repository": "MiguelRodo/comp",
+  "compendium_branch": "2026-sta2005s",
+  "independent_repositories": true,
+  "attached": [
+    {
+      "path": "lectures",
+      "repository": "MiguelRodo/lectures",
+      "development_ref": "slides-2026-sta2005s",
+      "commit": "6fc0b2061a33df3d6ca33589bc734d9d0e8bba74",
+      "tag": "slides-2026-sta2005s-v0.2.0",
+      "release_url": "https://github.com/MiguelRodo/lectures/releases/tag/slides-2026-sta2005s-v0.2.0",
+      "private": false
+    },
+    {
+      "path": "eval",
+      "repository": "MiguelRodo/eval",
+      "development_ref": "2026-sta2005s",
+      "commit": "a7303f94b7f1de41f53d3ad0214011ad68447ed6",
+      "tag": "eval-2026-sta2005s-v0.2.0",
+      "release_url": "https://github.com/MiguelRodo/eval/releases/tag/eval-2026-sta2005s-v0.2.0",
+      "private": true
+    },
+    {
+      "path": "slides_2025",
+      "repository": "MiguelRodo/Slides23RodoSTA2005S",
+      "development_ref": "2025",
+      "commit": "988f1f52acbb9306d3502800384a6e2685ee668f",
+      "release_status": "unchanged; no new release"
+    },
+    {
+      "path": "eval_2025",
+      "repository": "MiguelRodo/Eval23RodoSTA2005S",
+      "development_ref": "2025",
+      "commit": "871c90547836e17a698c8fc676871ea32a73d121",
+      "release_status": "unchanged; no new release"
+    },
+    {
+      "path": "data_tidy",
+      "repository": "MiguelRodo/DataTidyRodoSTA2005S",
+      "development_ref": "master",
+      "commit": "abb81a6ccd8743a57b9cd89b6cf2ca7ec7893792",
+      "release_status": "unchanged; no new release"
+    }
+  ],
+  "notes": [
+    "Development refs remain in repos.list.",
+    "The versioned list pins the two current course repositories to their release tags; historical refs are unchanged and exact commits are recorded here.",
+    "The evaluation repository and its release remain private. No evaluation content is copied into this public compendium."
+  ]
+}
