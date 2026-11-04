@@ -1,2 +1,3 @@
 eval
 lectures
+l[0-9]+/.vdoc.*
